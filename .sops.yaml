@@ -1,0 +1,5 @@
+# Update the age recipient below with your real public key(s).
+# You can list multiple recipients if teams need different unlock codes.
+creation_rules:
+  - path_regex: bundles/.+\.sops\.ya?ml$
+    age: age1lkmn7xnrqfv97h27tssx0fhrxmx8d72vz6t5sx8cnr2sau8j0cnscurep9
