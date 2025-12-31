@@ -12,7 +12,7 @@ lockbox_age_key: ENC[AES256_GCM,data:LvN20mYRA03YKL4wm+zaPxBL/EXXUgKXoIkDlDw696a
 #ENC[AES256_GCM,data:3wUxe4vuJawTIDM2fFGFoOSQ5Jasw8LbMZwHpx73hZfnHoYakbU9OdVSjQ==,iv:jJJU6lRVFtVVpT7Yzko8puTg8ZQ+joJ6PtRQjGA6P58=,tag:j3Kyu1LMRcHhjWcmPv7lLw==,type:comment]
 persona: ENC[AES256_GCM,data:Kp1D,iv:op3+9O9PbH6WPnmDuQerqW8S964n0YSv71VGmOpMmpo=,tag:thwDVEr9c9mogQCZReodWg==,type:str]
 #ENC[AES256_GCM,data:Ygq8x42FMZc479NKXttr9b9TbE52EA0TDexX,iv:7ucS/v6c9GfK7UXOJ4GUV8eb/hdaEW4KSC+hlblMNFY=,tag:kNGwjILHmpsbtGvNID7Cfg==,type:comment]
-mani_repo_url: ENC[AES256_GCM,data:TD9/Tj+yipjTjvAE7ykFkcvgh+nrogCkw3UUAA9ggCI=,iv:P02cutUE1bV2wRx3+IzfIB/vK74f+v2ir1bAU+U/sng=,tag:c5vE0epQHN7u+aO9KlaXBA==,type:str]
+mani_repo_url: ENC[AES256_GCM,data:Uh4R2oG37H66otxBcXRyanQlca6ugbfkxkO+cor2hoZkXmk=,iv:K8fmmAcrVFugwJL60Bk/V7CYgKWKay36f32VA+HoqIk=,tag:IOtYG+1DbywToXdJ/EBQUA==,type:str]
 mani_repo_ref: ENC[AES256_GCM,data:WBgYVg==,iv:sBE/9bARIIGoyNcnhdZWOJIIkdVOwXQeVQWwlDgJaIk=,tag:OMAP0c7KnLCeYDzt4QyDmg==,type:str]
 sops:
     age:
@@ -25,7 +25,7 @@ sops:
             V0RXcE5HcnNPRFFnWW5BZC9vQkkvMmcKmYCd9rKmF+1+0pVkoU2ax1JZLPNbKnQj
             skusBOmQ14ROaDzOhavltsCNDEcIO733e32D2vf3Kno8Ht2IX6t9iA==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2025-12-28T17:09:32Z"
-    mac: ENC[AES256_GCM,data:DiIYriIJN1GaKjDTiurBAl4U1jpB/9qcQhbgLo2pX9JwIj1aWaTBGmE/5iKej9O5mFGXEWSKzPwybZX4RvIguvvTq62zh3Wxbox6RqIbsail+AYdYC6Kk8SjU7OkLLTLjt7R2MlJ3rW7YW38+WgRvEv0DAeS+PWMIDyrXDmUgxM=,iv:aDlDIZuLhmkjCSyH8y8pdron7iHxqJCnck4qIH9+Ifw=,tag:35UIKVtmiqQYDzvNf9MLpw==,type:str]
+    lastmodified: "2025-12-31T22:24:17Z"
+    mac: ENC[AES256_GCM,data:MJNrXZzGD1AMgn5Zm12U5WTCOYkOMhZl/2/DPHOxtm69iq1BSePpyM9yoKKH8zFdFo0QDrjV8pc+1P2r0qoducVN2ECbgUSEEksxi3RiKxYuz3dtWdeVx3n01LxSCUsTaSY2AGunR/zUAa30sI0kr0WzQro8qc4QF6wiMf8Vd98=,iv:AHv/jY3ElnrllLPgsY3ol0tL/Nm4vLjoEgpigq8rps8=,tag:R2D1Q2tQSMwMs4m3YL+bQA==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.10.2
