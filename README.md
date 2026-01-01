@@ -37,7 +37,7 @@ default_persona: dev
 mani_repo_url: git@github.com:your-org/mani.git
 mani_manifests:
   - repo_url: git@github.com:your-org/mani.git
-    repo_path: ~/code/infra/atlas
+    repo_path: ~/org/your-org/infra/atlas
     sync_tags: [infra]
     run_commands: []
 ```
