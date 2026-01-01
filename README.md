@@ -35,9 +35,14 @@ lockbox_age_key: "AGE-SECRET-KEY-1QWERT..."
 # Optional overrides
 default_persona: dev
 mani_repo_url: git@github.com:your-org/mani.git
+mani_manifests:
+  - repo_url: git@github.com:your-org/mani.git
+    repo_path: ~/code/infra/atlas
+    sync_tags: [infra]
+    run_commands: []
 ```
 
-Feel free to add Harbor tokens, observability endpoints, etc. Anvil loads the decrypted map into vars and wires everything automatically.
+Feel free to add Harbor tokens, observability endpoints, etc. Anvil loads the decrypted map into vars and wires everything automatically. If you need multiple Mani manifests (e.g., Beta atlas plus an org-specific fork), populate the optional `mani_manifests` list. Each entry takes the same fields shown above (`repo_url`, `repo_path`, `sync_tags`, `run_commands`) and Anvil will call `mani sync` for each manifest in order during bootstrap.
 
 ## Usage
 
@@ -65,4 +70,3 @@ The script is a tiny wrapper around `sops` so you don’t forget flags. You can 
 
 - [`nickbendasg/mani`](../mani) (placeholder) will eventually host the Mani manifest + commands used to sync all infrastructure repos. Point the `mani_repo_url` field at the manifest you want Anvil to pull.
 - [`nickbendasg/anvil`](../anvil) consumes these bundles during bootstrap.
-
