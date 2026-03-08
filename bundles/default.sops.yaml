@@ -1,6 +1,6 @@
 git_username: ENC[AES256_GCM,data:822nje3fCOzFM6U=,iv:chcV7EAuRv7ZlXCIxg6Yr4m4EAV9C4h8k5sWowaej4o=,tag:2/801p/EIChFe7XD9tJfJA==,type:str]
 git_email: ENC[AES256_GCM,data:6Z8v9HDGQ5jjCARj0oybWw==,iv:JxFG0k8COZ5Xcvuh5UQwUcByvZGUsOvasFoyQ8VqVSk=,tag:plYnQ1KCNZRUfUKgbAPA/A==,type:str]
-github_token: ENC[AES256_GCM,data:I1jIvC2DDv3/jUlYCHg0JPuJxm7wLdQAgB1AP8MFb2sReQENhVxsVQ==,iv:BySoyiT+tHtflFMQU34DRdxX5wOeGeREUzqiF+ft8hs=,tag:QNFSUkW3xxCp2uRv2dyoKg==,type:str]
+github_token: ENC[AES256_GCM,data:wlmj7R4eF9C9kcmYqBNmElOc8mjWBiP3mBQlv/eZn1U1safIo9LP4Q==,iv:oSQWMUYKQuUcc45w65wLmmy/uAJDTZa1at7JKkNxqeQ=,tag:j1AMdp0oYP/Xf8EhGegRlA==,type:str]
 ssh_private_key: ""
 ssh_private_key_passphrase: ""
 lockbox_age_key: ENC[AES256_GCM,data:K2mzuWMwn09a0Jv0fXd3m3xXxAOK5baQ6QIQRvWWe14oel9I3bWSATiFEjLRIkBipE1RrBu9kY3/7/7Tx+RrdjRcygTXGl3OFR8=,iv:57nibTyYeHgUh8ZZ/O0Uzh+20RqgRDpjyIa9AZkN0/o=,tag:fNGHlGVqvZwuzcsqwqkGTQ==,type:str]
@@ -8,13 +8,13 @@ default_persona: ""
 mani_manifests:
     - repo_url: ENC[AES256_GCM,data:cb/P4SJqD+4+Mnxp2ZasGEc4c3balW9Pp8tSWJfkr09aTh8/,iv:IXO4VlOxCMSbJgBxfsVh66FZ1PErf9oH9RTl40cs1LY=,tag:t/GBajFC4seBQY6sx6I7KQ==,type:str]
       repo_path: ENC[AES256_GCM,data:tPZWBNP4UXoKDsrC3FIP5JVW,iv:5VmW8DWzG3dt5ZtVLz8//gMNWd8V+6uORhrkNOtlhok=,tag:gXZ6cKwEXI05CRzIiIpgAA==,type:str]
-      repo_ref: ENC[AES256_GCM,data:DoE/TA==,iv:grCg51VETZdJyS7q4EDmtQ263ANfaTTNYJogy6EVnXU=,tag:6OUxrMPKzq3kVWAiD1cyzg==,type:str]
+      repo_ref: ENC[AES256_GCM,data:A48CTA==,iv:pFBviZOuTbYYT0rVXZleO2R8pV05C3mnbI0jC0GXpuc=,tag:7DFvdagUA+ufvDDYmV7gtA==,type:str]
       sync_tags:
         - ENC[AES256_GCM,data:b5EjXLA=,iv:0Lhr5zXP0h28QRaHP1c9YvMwfVtBaeZyNBxlU3paCVg=,tag:sLe7NQOEYPoV6K7sewsbDw==,type:str]
       run_commands: []
     - repo_url: ENC[AES256_GCM,data:CYQaSTlbexsANbxZa/T/6GpXxpnL/a1BuWBE7trq93inP/3G,iv:zc6ZVdygIRHiS5bjNCGZaFydoxXzoFvQPhb06Enf+0I=,tag:yDVFZPaAYI9oima/SYo4ow==,type:str]
       repo_path: ENC[AES256_GCM,data:6iKyWlFYwbKxHB8=,iv:8Tlhjzr0j6JczBStT3YOMKHNsgPohL4TpmZQPx0Nuz4=,tag:Vj3EGrUw0dpaN5vpL2uKYg==,type:str]
-      repo_ref: ENC[AES256_GCM,data:5CWakQ==,iv:5vwmVtdKsyf0ryyI8BBOfrnvS36pfIEH60B9HNM6+6c=,tag:iCeeuTBm9Dj/uGxNWZXdeg==,type:str]
+      repo_ref: ENC[AES256_GCM,data:A48CTA==,iv:pFBviZOuTbYYT0rVXZleO2R8pV05C3mnbI0jC0GXpuc=,tag:7DFvdagUA+ufvDDYmV7gtA==,type:str]
       sync_tags:
         - ENC[AES256_GCM,data:q6tJEfmZN8M=,iv:Aqepd9uNUJntTVXbA+fswrBFJbiBukk8zM4xxEX+jOA=,tag:c/U9xAwduNtB7646o/vTtQ==,type:str]
       run_commands: []
@@ -35,7 +35,7 @@ sops:
             dmMvKzkwNVJyeStNY1VUWVpRVnBKVTAK3LQFZSOkhXpf+uI/VYZrRpVNUAMumfim
             W8NF7rlv+9k3gAI6qK8kXdhoCJOiRaiPaS/bmUyyN7LCIftoNb90Hg==
             -----END AGE ENCRYPTED FILE-----
-    lastmodified: "2026-01-18T07:26:46Z"
-    mac: ENC[AES256_GCM,data:w84EllleVxPKxSczyg8wLvk/kCDkgOhERIsSgNZmmqpmbwFW6xxke2sAHoWfSRhuv8VJSnF9kwgzyHxgw/vgSYMwxzA2ZfbZJ86xmComMqhA/reX1uFJapNyme2iRDlkVHpfs+51WrLKrDQOsL5txINf9qVmcEnJ5GQWPOYzGcc=,iv:GuPNfRwfFI30cIxBnm2+8hzvG3zfCksUIDxxLdfQPOI=,tag:f8BZAnisuCkdKd2XSTLo/g==,type:str]
+    lastmodified: "2026-03-08T03:38:52Z"
+    mac: ENC[AES256_GCM,data:JMi7Mp17BmT0g1g9UxTGMZ6HtoJjS6dvuTYCIrxx7Ge+T7fw+fTKMbk6zNIhcucrdRCWdoW8K3R+gJZq+Cvv7rtxEZvwPkgkygMj0PRFY/JmftAmngpBgBRPQbIwLDuAdJn4shzwklofySqlCXpxbQ6gAX5g60P/PHTY4IzBIi8=,iv:OG+wrUagMzOAKhKtk1Fcc3PlRcH8tXG0A2BeADCHvHw=,tag:1Z/W4XrNGhNbsA6Zrg1OMQ==,type:str]
     unencrypted_suffix: _unencrypted
     version: 3.10.2
